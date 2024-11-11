@@ -1,0 +1,61 @@
+.banner {
+  position: relative;
+  padding: 113px 0 117px;
+  background-image: url('../../img/background.png');
+  background-size: cover;
+  color: #ffffff;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d2f307f;
+  z-index: 1;
+}
+
+.banner__content {
+  position: relative;
+  z-index: 2;
+}
+
+.banner__container {
+  max-width: 688px;
+}
+
+.banner__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.banner__description {
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+}
+
+.banner__button {
+  display: inline-flex;
+  align-items: center;
+  color: #BAE249;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.banner__button::after {
+  content: "";
+  display: inline-block;
+  width: 48px;
+  height: 16px;
+  margin-left: 8px;
+  background-image: url('../../img/svg/Arrow.svg');
+  background-size: cover;
+}

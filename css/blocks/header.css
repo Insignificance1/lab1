@@ -1,0 +1,51 @@
+.header {
+  background-color: #1d2f30;
+  padding: 16px 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 125px;
+}
+
+.header__nav {
+  margin-right: auto;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__link {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 64px;
+  letter-spacing: 0.03em;
+}
+
+.header__icons {
+  display: flex;
+  gap: 64px;
+}
+
+.header__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__icon--search {
+  background-image: url('../../img/svg/search.svg');
+  background-size: cover;
+}
+
+.header__icon--profile {
+  background-image: url('../../img/svg/log-in.svg');
+  background-size: cover;
+}
